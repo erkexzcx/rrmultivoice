@@ -74,7 +74,7 @@ Which means you have 2 options here:
 
 **Option 1**: Use as is (the rest of example is based on this method), considering empty space of `/` partition (where `/opt/rockrobo/resources/sounds/en/` is located).
 
-**Option 2**: If you need more storage, maybe you can find another partition, such as mountpoint `/mnt/data`. In this case, you should delete everything from `en` folder, create (for example) `/mnt/data/rrmultivoice/en` dir and mount it to `/opt/rockrobo/resources/sounds/en` using `mount --bind` command as well as appropriate `/etc/fstab` entry (to mount on boot). Then you would work only with `/mnt/data/rrmultivoice/en`. **Note** that I have not tried this, so you are on your own.
+**Option 2**: If you need more storage, maybe you can find another partition, such as mountpoint `/mnt/data`. In this case, you should delete everything from `en` folder, create (for example) `/mnt/data/rrmultivoice/en` dir and mount it to `/opt/rockrobo/resources/sounds/en` using `mount --bind` command as well as appropriate `/etc/fstab` entry (to mount on boot). **Note** that I have not tried this method, so you are on your own.
 
 ### Delete existing files
 
