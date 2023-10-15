@@ -2,9 +2,19 @@
 
 This service grants ability for RockRobo vacuum robot to have different voice-lines each time it says something.
 
+Ever get bored of hearing _starting to clean_? Well, what if you hear these, each time a different voice line?
+
+* _Starting to clean. Or as I like to call it, the eternal punishment._
+* _Starting to clean. Can't wait._
+* _Starting to clean. Again, and again, and again._
+* _Starting to clean. Again. Your personal maid is at your service._
+* _Starting to clean. Another day, another disaster to tidy up._
+
+This project makes it possible!
+
 - [Get started](#get-started)
   * [Verifying compatibility](#verifying-compatibility)
-    + [Root & SSH](#root---ssh)
+    + [SSH access](#ssh-access)
     + [Process name](#process-name)
     + [Sounds location](#sounds-location)
     + [Available storage](#available-storage)
@@ -21,7 +31,7 @@ This service grants ability for RockRobo vacuum robot to have different voice-li
 
 ## Verifying compatibility
 
-### Root & SSH
+### SSH access
 
 First thing first - your RockRobo must be rooted. You must be able to access it via ssh.
 
