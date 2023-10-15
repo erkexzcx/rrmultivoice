@@ -139,7 +139,7 @@ SSH to your robot vacuum and inspect CPU architecture. In my case it's armv7:
 Processor       : ARMv7 Processor rev 5 (v7l)
 ```
 
-Since now you know the architecture, you can download an appropriate binary for your robot CPU from here: <insert_latest_release_link>
+Since now you know the architecture, you can download an appropriate binary for your robot CPU from here: https://github.com/erkexzcx/rrmultivoice/releases/latest
 
 Recommended place to put binary file is `/mnt/data/rrmultivoice`.
 
