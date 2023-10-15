@@ -72,6 +72,10 @@ You can use my provided sound packs `additional_sounds.tar.gz` from this repo. A
 
 ### Note about hard links
 
+Why hard links?
+
+This application swaps hard links to original sounds locations. It monitors the process that plays these sounds and once sound has been played - it immediatelly swaps it with a other one, so next time it is played - you will hear a different voice line. Using hard links is basically a way to save space and avoid creating a file copy.
+
 Explanation of what is hard link:
 
 _A hard link is a reference or pointer to a file's physical location on a disk, similar to a shortcut, but within the file system itself. Unlike a shortcut, a hard link is indistinguishable from the original file and has the same inode (the data structure in a Unix-style file system that describes a filesystem object such as a file or a directory). This means that even if you delete the original file, the hard link will still contain the file's data._
