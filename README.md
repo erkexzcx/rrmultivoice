@@ -1,5 +1,7 @@
 # rrmultivoice
 
+![Binary downloads](https://img.shields.io/github/downloads/erkexzcx/rrmultivoice/total)
+
 This service grants ability for RockRobo vacuum robot to have different voice-lines each time it says something.
 
 Ever get bored of hearing _starting to clean_? Well, what if you hear these, each time a different voice line?
